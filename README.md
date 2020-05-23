@@ -1,3 +1,6 @@
+# About
+This project was created as part of Udacity Front End Degree to show case HTML & CSS Skills
+
 # Getting Started
 
 - Clone the repository

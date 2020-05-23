@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url("base.css");
+@import url("bloggyblogstyle.css");
+@import url("responsive.css");
+
+body.home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  background-color: cadetblue;
+  grid-column: 1 / span 2;
+  padding: 0.5em;
+  padding-left: 1em;
+  display: flex;
+  flex: 0 0 100%;
+  align-items: center;
+}
+
+h1 {
+  color: #f7f9fb;
+  margin: 0;
+  text-transform: capitalize;
+  padding-left: 50px;
+}
+
+.menu {
+  background-color: powderblue;
+  color: black;
+  grid-column: 1 / span 2;
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Bree Serif", sans-serif;
+  letter-spacing: 0.25em;
+  text-transform: capitalize;
+}
+
+.menu > * {
+  margin-right: 60px;
+}
+
+article {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+}
+
+article.new {
+  grid-column: 1 / span 2;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 10px 50px 10px;
+
+  flex-wrap: wrap;
+}
+
+.article--items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+
+  margin-top: 30px;
+}
+
+img {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.writeup {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+
+.mainblog {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h2 {
+  margin-block-end: 1.5em;
+  align-self: center;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.next {
+  width: 100%;
+  max-width: 75px;
+  height: auto;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.card a {
+  display: flex;
+  flex-flow: column wrap;
+  justify-self: center;
+  align-self: center;
+  color: #444;
+}
+
+.card {
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #e4e4e4;
+  justify-self: center;
+  align-self: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-height: 170px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin: 0;
+  display: flex;
+  align-self: center;
+}
+
+.card p {
+  margin: 10px;
+  color: black;
+}
+
+footer {
+  background-color: cadetblue;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5%;
+}
+
+.landing {
+  margin-top: 2em;
+}
+
+footer img {
+  width: 35px;
+}

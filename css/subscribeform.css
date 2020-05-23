@@ -1,0 +1,94 @@
+body {
+  background-color: cadetblue;
+  display: flex;
+  flex: 0 0 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 4px solid #f1f1f1;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  form {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  form {
+    width: 70%;
+  }
+}
+
+.container {
+  padding: 20px 20px 10px 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+}
+
+h2 {
+  font-family: "Bree Serif", sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 150%;
+  margin: 0 0 0.75em;
+  text-transform: capitalize;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  margin: 0;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #f1f1f1;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  cursor: pointer;
+}

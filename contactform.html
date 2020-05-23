@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Lauren Baumgarten" />
+    <link rel="stylesheet" type="text/css" href="css/contactform.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans|Roboto:300i&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="alert.html">
+        <h2>
+          Let us know how you feel!
+        </h2>
+
+        <div class="name-info">
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name..."
+          />
+
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name..."
+          />
+        </div>
+
+        <div class="country-info">
+          <select id="country" name="country">
+            <option>Choose a country</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="japan">Japan</option>
+            <option value="mexico">Mexico</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="message">
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Here's your chance..."
+            style="height:200px"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

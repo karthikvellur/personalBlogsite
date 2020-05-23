@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bree Serif", sans-serif;
+  letter-spacing: 0.25em;
+  text-transform: capitalize;
+}
+
+p {
+  letter-spacing: 0.15em;
+  font-weight: 100;
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #687864;
+}
+
+abbr {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+blockquote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+blockquote:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
